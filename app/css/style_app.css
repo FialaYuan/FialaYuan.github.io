@@ -1,0 +1,401 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 宋体;
+}
+.clearfix{
+	clear:both;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-size: 16px;
+}
+.container{
+	width:100%;
+}
+
+/* 头部搜索框 */
+.top{
+	width:100%;
+	height:0.8rem;
+	display:flex;
+	text-align: center;
+	position: fixed;
+	top:0px;
+	background:white;
+	z-index: 99;
+}
+.top i{
+	width:10%;
+	height:0.36rem;
+	margin-top:0.24rem;
+	font-size: 0.36rem; 
+	margin-left: 0.32rem;
+	margin-right:0.32rem;
+}
+.top input{
+	width:80%;
+	height:0.6rem;
+	margin-top:0.1rem;
+	border:none;
+	outline:none;
+	font-size: 0.36rem;
+	margin-left:0.1rem;
+}
+
+/* 轮播图 */
+.poster{
+	width:100%;
+	margin:0 auto;
+	margin-top: 0.8rem;
+}
+.poster img{
+	width:100%;
+	height:2.8rem;
+}
+
+/* 菜单栏 */
+.list{
+	width:100%;
+	height:1.3rem;
+	font-size: 0.2rem;
+	text-align: center;
+	color:#727272;
+	margin-top:0.1rem;
+	box-sizing: border-box;
+	margin-bottom:0.1rem;
+}
+.list i{
+	font-size: 0.7rem;
+	color:#00b6f0;
+}
+.list-child{
+	width:25%;
+	float:left;
+	box-sizing: border-box;
+	border-right:1px solid #aaa;
+}
+.list-last{
+	border-right:1px solid white;
+}
+.list-title{
+	padding-bottom:0.15rem;
+	font-size: 0.32rem;
+}
+
+/* 分类 */
+.classify{
+	width:100%;
+	height:6.1rem;
+}
+.fengexian{
+	width:100%;
+	height:0.1rem;
+	background:#eaeaea;
+}
+.classify-cont{
+	width:50%;
+	height:2rem;
+	float:left;
+	box-sizing: border-box;
+	border-top:1px solid #ccc;
+}
+.cont-right img{
+	width:1rem;
+	float:right;
+	margin-top:0.1rem;
+	margin-right: 0.2rem;
+}
+.cont-left{
+	float:left;
+	width:60%;
+}
+.left-name{
+	padding-top:0.05rem;
+	padding-left: 0.28rem;
+	line-height: 0.35rem;
+	overflow: hidden;
+ 	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:3;
+	color:#999;
+}
+.left-name li{
+	display:inline-block;
+	color:#999;
+	font-size: 0.26rem;
+	padding-right:0.09rem;
+
+}
+.left-title{
+	font-size: 0.35rem;
+	padding-left: 0.28rem;
+	padding-top:0.3rem;
+	color:#333;
+}
+
+/* 淘书团 */
+.taoshutuan{
+	width:100%;
+	height:7.6rem;
+}
+.taoshutuan-head{
+	height:0.7rem;
+}
+.title{
+	width:2rem;
+	height:0.26rem;
+	float:left;
+	border-left:0.06rem solid #ff5000;
+	padding-left:0.22rem;
+	margin-left:0.02rem;
+	font-size: 0.26rem;
+	margin-top:0.16rem;
+}
+.more{
+	height:0.26rem;
+	float:right;
+	font-size: 0.15rem;
+	margin-right:0.2rem;
+	margin-top:0.16rem;
+}
+.more i{
+	font-size: 0.15rem;
+}
+.bottomkuang{
+	width:50%;
+	height:3.36rem;
+	float:left;
+}
+.kuang-img{
+	width:3.64rem;
+	margin:0 auto;
+}
+.kuang-img img{
+	width:3.64rem;
+}
+.bottomkuang p{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	font-size: 0.3rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+}
+.youhuijia{
+	float:left;
+	font-size: 0.24rem;
+	color:red;
+	padding-left: 0.1rem;
+	padding-top: 0.1rem;
+}
+.zhekoujia{
+	width:0.75rem;
+	height:0.35rem;
+	background:#3bb4f2;
+	border-radius: 0.05rem;
+	float:right;
+	margin-top: 0.1rem;
+	font-size: 0.24rem;
+	color:white;
+	text-align: center;
+	margin-right:0.12rem;
+	line-height: 0.35rem;
+}
+.yuanjia{
+	font-size: 0.24rem;
+	color:#ccc;
+	text-decoration: line-through;
+	margin-left: 0.08rem;
+}
+
+// 新书上架
+.newbooks{
+	width:100%;
+	height:7.7rem;
+}
+.newbooks-head{
+	height:0.7rem;
+}
+.newbooks-bottom{
+	height:7rem;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.bottom-up{
+	height:3.5rem;
+	box-sizing: border-box;
+	border-bottom:1px solid #ccc;
+}
+.bottom-down{
+	height:3.5rem;
+}
+.up-left{
+	width:50%;
+	height:3.5rem;
+	float:left;	
+	box-sizing: border-box;
+	border-right:1px solid #ccc;
+	text-align: center;
+}
+.up-right{
+	width:50%;
+	height:3.5rem;
+	float:left;	
+}
+.up-left-img img{
+	width:1.5rem;
+}
+.p-title{
+	font-size: 0.3rem;
+	padding-top: 0.2rem;
+	padding-bottom:0.1rem;
+	height:0.8rem;
+}
+.p-author{
+	height:0.5rem;
+	font-size: 0.24rem;
+	color:#f9446b;
+}
+.right-cont{
+	height:50%;
+	box-sizing: border-box;
+}
+.up-right-left{
+	width:70%;
+	height:1.75rem;
+	float:left;
+	margin-left: 0.1rem;
+}
+.up-right-right{
+	width:25%;
+	height:1.75rem;
+	float:right;
+}
+.up-right-right img{
+	width:0.75rem;
+	margin-top:0.4rem;
+}
+.p-title2{
+	font-size: 0.3rem;
+	padding-top: 0.2rem;
+	padding-right: 0.1rem;
+}
+.p-author2{
+	font-size: 0.24rem;
+	color:#f9446b;
+	padding-right: 0.1rem;
+	padding-top: 0.1rem;
+}
+.bottom-down-cont{
+	height:3.5rem;
+	float:left;
+	text-align: center;
+}
+.bottom-down-img img{
+	width:1rem;
+	margin-top:0.2rem;
+}
+.p-title3{
+	font-size: 0.3rem;
+	padding-top: 0.2rem;
+	padding-bottom:0.1rem;
+	height:0.8rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+}
+.p-author3{
+	height:0.5rem;
+	font-size: 0.24rem;
+	color:#f9446b;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+}
+.right-cont2{
+	float:left;
+	width:100%;
+}
+
+// 猜你喜欢
+.guess{
+	width:100%;
+	height:13.7rem;
+	background:lightblue;
+}
+.guess-head{
+	height:0.7rem;
+}
+.guess-bottom{
+	height:13rem;
+}
+.guess-bottom-cont{
+	width:100%;
+	height:2.6rem;
+	box-sizing:border-box;
+}
+.bottom-cont-img{
+	float:left;
+	height:2.6rem;
+	width:30%;
+}
+.right-cont{
+	float:left;
+	width:70%;
+	padding-left: 0.1rem;
+}
+.bottom-cont-img img{
+	width:1.6rem;
+	margin-top:0.1rem;
+	margin-left: 0.3rem;
+}
+.right-title{
+	font-size: 0.34rem;
+	color:#0582cd;
+	padding-top:0.3rem;
+}
+.shuji{
+	font-size: 0.26rem;
+	padding-right: 0.2rem;
+	height:0.6rem;
+	padding-top: 0.1rem;
+}
+.right-newPrice{
+	font-size: 0.26rem;
+	color:#e60000;
+	font-family: 微软雅黑;
+	padding-top: 0.05rem;
+}
+.right-zhekou{
+	font-size: 0.24rem;
+	color:#666;
+	font-family: 微软雅黑;
+	margin-left: 0.1rem;
+}
+.right-dingjia{
+	font-size: 0.24rem;
+	color:#999;
+	font-family: 微软雅黑;
+	margin-left: 0.1rem;
+}
+.right-oldPrice{
+	font-size: 0.24rem;
+	color:#999;
+	font-family: 微软雅黑;
+	text-decoration: line-through;
+}
+.p-icon{	
+	width:0.5rem;
+	height:0.5rem;
+	background:#ff0000;
+	border-radius: 0.25rem;
+	color:white;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-top: 0.2rem;
+}
